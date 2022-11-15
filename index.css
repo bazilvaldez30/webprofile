@@ -1,0 +1,74 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#img-logo{
+	width: 40px;
+	height: 40px;
+}
+
+.nav-item{
+	font: Black !important;
+}
+
+@media (min-width: 820px){
+#nav-padding{
+	padding-right: 15rem !important;
+	padding-left: 15rem !important;
+	}
+}
+
+/*#nav-padding{
+	padding-left: 2rem !important;
+	padding-right: 2rem !important;
+
+}*/
+
+#main-margin{
+	
+}
+
+
+#landing-page{
+	min-height: 50vh;
+}
+
+#landing-page .row{
+	width: 40px;
+	height: 40px;
+}
+
+#latest-projects{
+	min-height: 50vh;
+}
+
+#about-me{
+	min-height: 40vh;
+}
+
+.social-media{
+	height: 30px;
+	width: 30px;
+}
+
+body{
+	font-family: 'Comfortaa', cursive;
+	color: #f78a45;
+}
+
+#dlcv{
+	background-color: palevioletred; !important;
+	padding: 5 !important;
+	color: darkred;
+}
+
+
+
+
+
+
+
+
+
