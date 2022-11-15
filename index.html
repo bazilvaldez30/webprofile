@@ -24,24 +24,24 @@
 
 	<body class = "text-center bg-dark">
 		<!-- Navbar -->
-		<nav id = "nav-padding" class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<nav id = "nav-padding" class="navbar navbar-expand-lg navbar-dark">
 		  <img id = "img-logo" src="./images/Zil.png">
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarNav">
 		    <ul class="navbar-nav ml-auto">
-		      <li class="nav-item active">
-		        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+		      <li class="nav-item active ">
+		        <a class="nav-link text-dark"  href="#home">Home<span class="sr-only">(current)</span></a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">About me</a>
+		        <a class="nav-link text-dark"  href="#aboutme">About me</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Projects</a>
+		        <a class="nav-link text-dark" href="#projects">Projects</a>
 		      </li>
 		      <li class="nav-item">
-		        <a class="nav-link" href="#">Tools</a>
+		        <a class="nav-link text-dark" href="#contactme">Contact Me</a>
 		      </li>		  
 		    </ul>
 		  </div>
@@ -52,7 +52,7 @@
 		<!-- Main -->
 		<div>
 			<!-- Landing Page -->
-			<div  class = "">
+			<div  id="home">
 				<div id ="main-margin">
 					<div class = "d-md-flex d-inline-block text-center flex-md-row flex-column justify-content-center align-items-center ">
 						<img class ="p-2 ml-auto col-3" src="./images/Image_HD.png">
@@ -66,7 +66,7 @@
 			</div>
 			<!-- End of Landing Page -->
 			<!-- About me -->
-			<div class = "justify-content-around p-5">					
+			<div id = "aboutme" class = "justify-content-around p-5">					
 				<div class = "d-flex flex-column flex-md-row justify-content-center justify-content-around align-items-center pt-5">
 					<div class = "col-md-4 col-12">
 						<h5>Dicover</h2>
@@ -81,7 +81,7 @@
 			<!-- End of About Me -->
 
 			<!-- My Latest Projects -->
-			<div class = "text-center pt-5">
+			<div id = "projects" class = "text-center pt-5">
 				<div id = "latest-projects" class = "">
 					<h2>My Latest Projects</h2>	
 					<div >
@@ -121,7 +121,7 @@
 			<!-- End of my Latest Project -->
 
 			<!-- Tools -->
-			<h3 class = "pt-4">Core Tools</h3>
+			<h3 id = "tools" class = "pt-4">Core Tools</h3>
 
 			<div class = "justify-content-around">
 			    <div class = "mx-auto">
@@ -135,7 +135,7 @@
 			<!-- Core Tools Section End -->
 			
 			<!-- Other Tools Section Start -->
-			<h3>Other Tools</h3>
+			<h3 class = "pt-3">Other Tools</h3>
 
 			<div class = "d-flex d-md-inline justify-content-around">
 			    <div class = "d-flex flex-column flex-md-row mt-3 align-items-center justify-content-center">
@@ -160,22 +160,41 @@
 		<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 
+		<!-- Contact Me -->
+		<h3 id = "contactme"class = "pt-5 pb-5">Contact Me...</h3>
+			<div id = "contact1" class = "d-flex flex-md-row flex-column mx-auto col-12 col-md-8 row m-0 justify-content-around align-items-center p-2">
+				<div class = "col-2">
+					<h2>Say, Hello!</h2>
+				</div>
+				<div class = "col-2">
+					bazilvaldez30@gmail.com
+				</div>
+				<div class = "font-weight-bold col-2">
+					<a id = "contactbutton" href = "bazilvaldez30@gmail.com?subject = Feedback&body = Message">
+					CONTACT
+					</a>
+				</div>
+			</div>
+	
+
+		<!-- End of Contect me -->
+
 	</body>
 	<!-- End of Body -->
 
 	<footer>
 
-		<div class = "bg-dark text-light">
-			<div class = "d-md-flex justify-content-between align-items-center p-2">
-				<div class = "pl-5 pt-2">
+		<div class = "text-dark font-weight-bold">
+			<div class = "d-md-flex justify-content-around align-items-center text-center p-2">
+				<div class = "">
 					<p>+63961-119-6597</p>
 				</div>
-				<div class = "">
+				<div class ="pl-md-3 pl-0">
 					<a href="https://www.facebook.com/john2valdez/"><img class = "social-media" src="./images/facebook.png"></a>
 					<a class = "pl-2 pr-2" href="https://twitter.com/BazilValdez"><img class = "ml-3 mr-3 social-media" src="./images/twitter.png"></a>
 					<a href="https://www.linkedin.com/in/john-bazil-valdez-4b4b9b247/"><img class = "social-media" src="./images/linkedin.png"></a>
 				</div>
-				<div class = "pr-5 pt-2">
+				<div class = "pt-md-0 pt-3">
 					<p>bazilvaldez30@gmail.com</p>
 				</div>
 			</div>

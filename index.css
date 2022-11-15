@@ -17,6 +17,7 @@
 #nav-padding{
 	padding-right: 15rem !important;
 	padding-left: 15rem !important;
+	background-color: #e6c6ae;
 	}
 }
 
@@ -59,10 +60,36 @@ body{
 }
 
 #dlcv{
-	background-color: palevioletred; !important;
-	padding: 5 !important;
-	color: darkred;
+	border: 2px solid;
+	background-color: #f78a45; !important;
+	padding: 3px !important;
+	color: #0d0b09;
+	font-weight: bold;
 }
+
+.card{
+	background-color: #332f2c !important;
+}
+
+footer{
+	background-color: #f78a45;
+	margin-top: 3rem;
+}
+
+#contact1{
+	min-height: 20vh;
+	background-color: #2f404a !important;
+}
+
+#contactbutton{
+	border: 1px solid !important;
+	border-color: black !important;
+	padding: 15px !important;
+	background-color: whitesmoke;
+	text-decoration: none;
+}
+
+
 
 
 
