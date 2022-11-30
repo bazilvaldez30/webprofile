@@ -92,6 +92,20 @@ a{
 	#landing-page-80vh{
 		min-height: 80vh;
 	}
+	#h1-contact{
+		font-size: 250% !important;
+	}
+	#contact-btn{
+		border: 1px solid crimson !important;
+		padding: 12px !important;
+		padding-left: 29px !important;
+		padding-right: 29px !important;
+		text-decoration: none !important;
+		background-color: #dc2f02 !important;
+		color: dc2f02 !important;
+		border-radius: 5px !important;
+		font-size: 14px !important;
+	}
 }
 
 #my-image{
@@ -166,13 +180,12 @@ a{
 	padding-top: 50px !important;
 }
 
-#contact-me{
-	min-height: 30vh;
-}
+
 
 #cntact-me-bg{
 	background-color: #081016 !important;
 	border: solid #111f29 1px;
+	min-height: 30vh;
 }
 
 #soc-med-logo{
@@ -186,14 +199,14 @@ a{
 
 #contact-btn{
 	border: 1px solid crimson !important;
-	padding: 12px !important;
-	padding-left: 29px !important;
-	padding-right: 29px !important;
+	padding: 9px !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
 	text-decoration: none;
 	background-color: #dc2f02;
 	color: dc2f02 !important;
 	border-radius: 5px;
-	font-size: 14px;
+	font-size: 10px;
 }
 
 
