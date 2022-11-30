@@ -106,6 +106,15 @@ a{
 		border-radius: 5px !important;
 		font-size: 14px !important;
 	}
+	#dlcv{
+		border: 1px solid crimson !important;
+		padding: 11px !important;
+		text-decoration: none !important;
+		background-color: #dc2f02 !important;
+		color: dc2f02 !important;
+		border-radius: 3px !important;
+		font-size: 15px !important;
+	}
 }
 
 #my-image{
@@ -124,16 +133,17 @@ a{
 
 #about-me-box-bg{
 	border: 2px solid #9e2a2b;
-	border-radius: 12px;
+	border-radius: 4px;
 }
 
 #dlcv{
 	border: 1px solid crimson !important;
-	padding: 6px !important;
+	padding: 11px !important;
 	text-decoration: none;
 	background-color: #dc2f02;
 	color: dc2f02 !important;
-	border-radius: 5px;
+	border-radius: 3px;
+	font-size: 12px;
 }
 
 #my-projects{
@@ -143,7 +153,7 @@ a{
 
 #proj-div{
 	background-color: #090910;
-	border-radius: 12px;
+	border-radius: 4px;
 }
 #proj-div:hover{
 	transform: scale(1.2);
@@ -205,8 +215,13 @@ a{
 	text-decoration: none;
 	background-color: #dc2f02;
 	color: dc2f02 !important;
-	border-radius: 5px;
+	border-radius: 4px;
 	font-size: 10px;
+}
+
+#download-icon{
+	height: 20px;
+	width: 20px;
 }
 
 
