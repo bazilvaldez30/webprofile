@@ -1,105 +1,200 @@
+html {
+	scroll-behavior: smooth;
+	scroll-padding-top: 66.73px; /* to check navbar height use developer tools of google */
+  }
+
 *{
-	margin: 0px;
-	padding: 0px;
-	box-sizing: border-box;
+	margin: 0px !important;
+	padding: 0px !important;
+	box-sizing: border-box !important;
+	font-family: 'Comfortaa', cursive !important;
 }
 
-#img-logo{
-	width: 40px;
-	height: 40px;
+nav>div>div>a>img{
+	height: 50px;
+	width: 50px;
 }
 
-.nav-item{
-	font: Black !important;
+#div-img-logo{
+ 	height: 60px;
+ 	width: 60px;
+ 	border: solid 5px #090910;
+ 	border-color: #090910 !important;
+ 	background-color: #c0c0c0;
+ 	border-radius: 50px;
 }
 
-@media (min-width: 820px){
-#nav-padding{
-	padding-right: 15rem !important;
-	padding-left: 15rem !important;
-	background-color: #e6c6ae;
-	}
-
+#nav-bg{
+	background-color: #3b2a1c;
 }
 
-/*#nav-padding{
-	padding-left: 2rem !important;
-	padding-right: 2rem !important;
 
+
+/*#landing-page-1{
+	min-height: auto;
+	min-width: auto;	
 }*/
 
-#main-margin{
-	
+#landing-page-80vh{
+	min-height: 93vh;
+	border-bottom: solid black 2px;
+	border-top: solid black 2px;
+	background-image: url(./images/landing-page-bg-3.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: bottom left;
 }
 
 
-#landing-page{
-	min-height: 50vh;
+#landing-page-vh{
+	min-height: 84vh !important;
+	background-color: #000000;
 }
 
-#landing-page .row{
-	width: 40px;
-	height: 40px;
+a{
+	color: #D3D3D3 !important;
 }
 
-#latest-projects{
-	min-height: 50vh;
+#landing-page-bg-gray{
+	background-color: rgba(0,0,0, 0.6) !important;
+}
+
+#p1{
+	color: #A5A58D !important;
+}
+
+#h1, #h3{
+	color: #FFE8D6 !important;
+}
+
+@media (min-width:  992px){
+	#h1{
+		font-size: 350% !important;
+	}
+	#h3{
+		font-size: 180% !important;
+	}
+	#h4{
+		font-size: 140% !important;
+	}
+	#aboutme-h4{
+		font-size: 130% !important;
+	}
+	#aboutme-h1{
+		font-size: 250% !important;
+	}
+	#latest-proj-h1{
+	font-size: 250% !important;
+}
+	#landing-page-vh{
+		min-height: 93vh !important;
+	}
+	#landing-page-80vh{
+		min-height: 80vh;
+	}
+}
+
+#my-image{
+	filter: brightness(78%);
+}
+
+#my-image:hover{
+	filter: brightness(90%);
 }
 
 #about-me{
-	min-height: 40vh;
-	background-color: #2f404a !important;
-
+	min-height: 60vh;
+	background-color: #080708;
+	margin-top: 1px !important;
 }
 
-.social-media{
-	height: 30px;
-	width: 30px;
-}
-
-body{
-	font-family: 'Comfortaa', cursive;
-	color: #f78a45;
+#about-me-box-bg{
+	border: 2px solid #9e2a2b;
+	border-radius: 12px;
 }
 
 #dlcv{
-	border: 2px solid;
-	background-color: #f78a45; !important;
-	padding: 3px !important;
-	color: #0d0b09;
-	font-weight: bold;
-}
-
-.card{
-	background-color: #332f2c !important;
-}
-
-footer{
-	background-color: #f78a45;
-	margin-top: 3rem;
-}
-
-#contact1{
-	min-height: 20vh;
-	background-color: #2f404a !important;
-}
-
-#contactbutton{
-	border: 1px solid !important;
-	border-color: black !important;
-	padding: 15px !important;
-	background-color: whitesmoke;
+	border: 1px solid crimson !important;
+	padding: 6px !important;
 	text-decoration: none;
+	background-color: #dc2f02;
+	color: dc2f02 !important;
+	border-radius: 5px;
 }
 
+#my-projects{
+	min-height: 70vh;
+	background-color: #00171f;
+}
 
+#proj-div{
+	background-color: #090910;
+	border-radius: 12px;
+}
+#proj-div:hover{
+	transform: scale(1.2);
+	filter: brightness(120%);
+}
 
+#proj-div > img{
+	filter: brightness(85%);
+}
 
+#tools>div>div>img{
+	width: 150px !important;
+	transition: transform .2s; /* Animation */
+}
 
+#tools>div>div>img:hover{
+	transform: scale(1.5);
+	filter: brightness(110%);
+}
 
+#tools{
+	background-image: linear-gradient(
+		to bottom,
+		#081016 0%,
+		#081016 82%,
+		#00171f 50%,
+		#090910 100%
+	);
+	margin-top: 1px !important;
+	min-height: 130vh;
+}
 
+#contact-me-padding-top{
+	padding-top: 50px !important;
+}
 
+#contact-me{
+	min-height: 30vh;
+}
 
+#cntact-me-bg{
+	background-color: #081016 !important;
+	border: solid #111f29 1px;
+}
+
+#soc-med-logo{
+	height: 30px !important;
+	width: 30px !important;
+}
+
+#footer{
+	background-color: rgb(62, 71, 77) !important;
+}
+
+#contact-btn{
+	border: 1px solid crimson !important;
+	padding: 12px !important;
+	padding-left: 29px !important;
+	padding-right: 29px !important;
+	text-decoration: none;
+	background-color: #dc2f02;
+	color: dc2f02 !important;
+	border-radius: 5px;
+	font-size: 14px;
+}
 
 
 
